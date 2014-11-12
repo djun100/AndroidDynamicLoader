@@ -1,3 +1,5 @@
+modify from https://github.com/mmin18/AndroidDynamicLoader
+
 # Android Dynamic Loader
 
 Android Dynamic Loader is a plugin system. The host application is like a browser, but instead of load web pages, it load plugins which runs natively on Android system.
