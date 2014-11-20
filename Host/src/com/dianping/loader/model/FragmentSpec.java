@@ -6,6 +6,19 @@ import org.json.JSONObject;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/**  "fragments": [
+    {
+      "host": "bitmapfun",
+      "name": "com.example.android.bitmapfun.ui.ImageGridFragment",
+      "code": "sample.bitmapfun.20130629.1"
+    },
+    {
+      "host": "image",
+      "name": "com.example.android.bitmapfun.ui.ImageDetailFragment",
+      "code": "sample.bitmapfun.20130629.1"
+    }
+  ],
+ */
 public class FragmentSpec implements Parcelable {
 	private String host;
 	private String code;

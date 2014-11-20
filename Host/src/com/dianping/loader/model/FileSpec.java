@@ -32,9 +32,10 @@ public class FileSpec implements Parcelable {
 	private String id;
 	private String url;
 	private String md5;
+	//可能无下列参数
 	private int down;
 	private int length;
-	private String[] deps;
+	private String[] deps;//深度      "deps": ["lib.bitmapfun.20130629.1"]
 
 	public FileSpec(String id, String url, String md5, int down, int length,
 			String[] deps) {

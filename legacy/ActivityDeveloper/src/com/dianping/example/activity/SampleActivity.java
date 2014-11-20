@@ -17,6 +17,6 @@ public class SampleActivity extends Activity {
 				ViewGroup.LayoutParams.FILL_PARENT));
 		setContentView(text);
 
-		text.setText("You can change this activity and generate the unsigned apk file to ActivityLoader/assets/apks. The SampleActivity will be replaced.");
+		text.setText("sampleacitvity wangxc");
 	}
 }

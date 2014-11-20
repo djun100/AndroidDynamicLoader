@@ -21,6 +21,10 @@ public class SiteSpec implements Parcelable {
 		this.fragments = fragments;
 	}
 
+	/**解析本地site.txt内json信息
+	 * @param json
+	 * @throws JSONException
+	 */
 	public SiteSpec(JSONObject json) throws JSONException {
 		id = json.getString("id");
 		version = json.getString("version");

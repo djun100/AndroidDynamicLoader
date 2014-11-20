@@ -18,11 +18,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.dianping.app.MyActivity;
+import com.dianping.app.BaseActivity;
 import com.dianping.app.MyApplication;
 import com.dianping.loader.model.SiteSpec;
 
-public class HomeActivity extends MyActivity {
+public class HomeActivity extends BaseActivity {
 	TextView siteUrl;
 
 	@Override
@@ -42,6 +42,7 @@ public class HomeActivity extends MyActivity {
 		super.onResume();
 
 		File dir = new File(getFilesDir(), "repo");
+		Log.e("", dir.toString());
 		File site = new File(dir, "site.txt");
 		findViewById(R.id.go_last).setEnabled(site.length() > 0);
 		TextView lastUrl = (TextView) findViewById(R.id.last_url);

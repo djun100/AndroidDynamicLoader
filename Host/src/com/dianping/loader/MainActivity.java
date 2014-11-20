@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.dianping.app.MyActivity;
+import com.dianping.app.BaseActivity;
 import com.dianping.app.MyApplication;
 import com.dianping.loader.model.FileSpec;
 import com.dianping.loader.model.SiteSpec;
@@ -33,7 +33,7 @@ import com.dianping.loader.model.SiteSpec;
  * @author Yimin
  * 
  */
-public class MainActivity extends MyActivity {
+public class MainActivity extends BaseActivity {
 	private SiteSpec site;
 	private FileSpec file;
 	private String fragmentName;
